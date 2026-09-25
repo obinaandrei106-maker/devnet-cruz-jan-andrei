@@ -20,7 +20,7 @@ GitHub is an online platform where Git repositories can be stored and shared. Gi
 - repository: The repository is where you will store all of your files/projects.
 - commit: Commit is when you are finish editing your changes you will use commit to save your changes to your repository and you can also add a message on your commited changes.
 - branch: This is a separate version of the project where you can work on new features or changes without immediately affecting the main branch.
-- push / pull: Push is to send my commit changes to the repository, and the pull is 
+- push / pull: Push is to send my commit changes to the repository, and the pull is to download the latest changes in the GitHub
 - pull request: This is where you will request to combine the changes from one branch to another. 
 - merge conflict: This happens when Git finds different changes made to the same part of a file and cannot automatically decide which version to keep.
 
@@ -47,20 +47,7 @@ git push -u origin feature-update
 ## A mistake I made (or one I want to avoid)
 
 One mistake I want to avoid is accidentally making changes directly on the main branch instead of creating a separate branch. This can make the main version of the project contain unfinished or incorrect changes. Another thing I learned is that a commit is not the same as a push. A commit saves the changes in my local Git history, while a push sends those commits to GitHub.
-For example if I only run
-git add .
-git commit -m "My changes"
 
-the changes are committed locally, but they are not necessarily on GitHub yet. I still need to run.
-git push
-
-to upload the commit to the remote repository.
-
-The main lesson I learned is to check my branch and Git status before making a commit
-git branch
-git status
-
-This helps prevent committing changes to the wrong branch and makes the Git workflow easier to understand.
 
 ---
 
