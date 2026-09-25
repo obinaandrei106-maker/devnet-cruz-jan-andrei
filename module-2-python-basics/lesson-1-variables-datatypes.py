@@ -44,7 +44,8 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 student_name = "Jan Andrei O. Cruz" 
-student_age = 23 average_grade = 90.3 
+student_age = 23 
+average_grade = 90.3 
 is_enrolled = True 
 print("Student Name:", student_name) 
 print("Age:", student_age) 
